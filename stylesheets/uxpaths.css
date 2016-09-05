@@ -14,6 +14,11 @@
     font-style: italic;
 }
 
+.ux-page-header .ad{
+    margin-top: 20px;
+    max-height: 100px;
+}
+
 #portfolio .portfolio-item {
     margin: 0 0 15px;
     right: 0;
