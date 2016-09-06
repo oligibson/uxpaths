@@ -1,0 +1,19 @@
+{
+  "name": "uxpaths",
+  "version": "1.0.0",
+  "description": "A collection of UX examples from popular sites",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oligibson/uxpaths.git"
+  },
+  "author": "Oli Gibson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oligibson/uxpaths/issues"
+  },
+  "homepage": "http://uxpaths.com",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-html-build": "^0.6.1"
+  }
+}
