@@ -1,3 +1,76 @@
+* {
+    box-sizing: border-box; }
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #606c71;
+    background-color: #eee }
+
+a {
+    color: #534292;
+    text-decoration: none; }
+a:hover {
+    text-decoration: underline; }
+
+.page-header {
+    color: #fff;
+    text-align: center;
+    background-color: #534292;
+    background-image: linear-gradient(120deg, #654a86, #534292); }
+
+@media screen and (min-width: 64em) {
+    .page-header {
+        padding: 5rem 6rem; } }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+    .page-header {
+        padding: 3rem 4rem; } }
+
+@media screen and (max-width: 42em) {
+    .page-header {
+        padding: 2rem 1rem; } }
+
+.project-name {
+    margin-top: 0;
+    margin-bottom: 0.1rem; }
+
+@media screen and (min-width: 64em) {
+    .project-name {
+        font-size: 4.75rem; } }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+    .project-name {
+        font-size: 4.0rem; } }
+
+@media screen and (max-width: 42em) {
+    .project-name {
+        font-size: 3.25rem; } }
+
+.project-tagline {
+    margin-bottom: 2rem;
+    font-weight: normal;
+    opacity: 0.7; }
+
+@media screen and (min-width: 64em) {
+    .project-tagline {
+        font-size: 2.9rem; } }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+    .project-tagline {
+        font-size: 2.2rem; } }
+
+@media screen and (max-width: 42em) {
+    .project-tagline {
+        font-size: 1.50rem; } }
+
+.site-footer-owner {
+    display: block;
+    font-weight: bold; }
+
 .ux-page-header{
     color: #fff;
     text-align: center;
@@ -16,7 +89,6 @@
 
 .ux-page-header .ad{
     margin-top: 20px;
-    max-height: 100px;
 }
 
 #portfolio .portfolio-item {
