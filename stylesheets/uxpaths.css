@@ -100,6 +100,8 @@ a:hover {
     position: relative;
     max-width: 400px;
     margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 60%;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
     background: rgba(63, 63, 63, 0.9);
@@ -110,6 +112,7 @@ a:hover {
     transition: all ease 0.5s;
     -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
+    z-index: 2;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
     opacity: 1;
@@ -123,6 +126,8 @@ a:hover {
     top: 50%;
     margin-top: -12px;
     color: white;
+    z-index: 3;
+
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
     margin-top: -12px;
@@ -131,6 +136,17 @@ a:hover {
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
     margin: 0;
 }
+
+#portfolio .portfolio-item .portfolio-link img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+
 #portfolio .portfolio-item .portfolio-caption {
     max-width: 400px;
     margin: 0 auto;
